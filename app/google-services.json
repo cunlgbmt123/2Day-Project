@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "87808755586",
+    "project_id": "dayteam-759be",
+    "storage_bucket": "dayteam-759be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87808755586:android:64404d13d8d39cd25db19b",
+        "android_client_info": {
+          "package_name": "com.example.a2dayteam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87808755586-5i25v63f4se5hf2oltd84n599kqaqsjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA1RbokXhuSuLQdiE7sgYkUAZeT2SxQUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87808755586-5i25v63f4se5hf2oltd84n599kqaqsjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

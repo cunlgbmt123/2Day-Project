@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">2DayTeam</string>
+    <string name="_title_home">HOME</string>
+    <string name="_title_dashboard">Dashboard</string>
+    <string name="_title_notifications">Notifications</string>
+
+    <string-array name="State">
+        <item>Maharashtra</item>
+        <item>Gujarat</item>
+    </string-array>
+
+    <string-array name="Shipper">
+        <item>Shipper 1</item>
+        <item>Shipper 2</item>
+    </string-array>
+
+    <string-array name="Dishname">
+        <item>Stuffed pancake</item>
+        <item>round sticky rice cake</item>
+        <item>girdle-cake</item>
+        <item>shrimp in batter</item>
+        <item>Rice noodle soup with beef</item>
+        <item>House special beef noodle soup</item>
+        <item>spring rolls</item>
+        <item>Seafood delight salad</item>
+        <item>Chicken fried with citronella</item>
+        <item>Soya cheese</item>
+        <item>Hot pot</item>
+        <item>Cabbage pickles</item>
+        <item>onion pickles</item>
+        <item>Salted egg-plant</item>
+        <item>Crab fried with tamarind</item>
+        <item>Crab boiled in beer</item>
+        <item>Tender beef fried with bitter melon</item>
+        <item>Seafood noodle soup</item>
+
+
+    </string-array>
+</resources>
