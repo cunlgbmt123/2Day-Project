@@ -3,6 +3,12 @@
     <string name="_title_home">HOME</string>
     <string name="_title_dashboard">Dashboard</string>
     <string name="_title_notifications">Notifications</string>
+    <string name="mainmenu">MainMenu</string>
+    <string name="eating_is_happiness">Eating is happiness</string>
+    <string name="login_by_email">Login By Email</string>
+    <string name="todo">TODO</string>
+    <string name="button">Button</string>
+
 
     <string-array name="State">
         <item>Maharashtra</item>
