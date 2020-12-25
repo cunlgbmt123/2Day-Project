@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="LOGIN"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <LinearLayout
+        android:layout_width="402dp"
+        android:layout_height="553dp"
+        android:layout_marginTop="158dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40"
+            android:layout_marginTop="10"
+            android:layout_marginRight="40"
+            android:layout_marginBottom="20"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="10"
+            android:text="Name"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40"
+            android:layout_marginRight="40"
+            android:layout_marginBottom="20"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="pass"
+            android:inputType="textPassword"
+            android:paddingLeft="10"
+            android:textColor="@color/white"
+            android:textColorHint="@color/material_on_primary_emphasis_medium" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40"
+            android:layout_marginTop="20"
+            android:layout_marginRight="40"
+            android:background="@drawable/button_login"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40"
+            android:layout_marginTop="240"
+            android:layout_marginRight="40"
+            android:background="@drawable/button_login"
+            android:text="Sigin" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40"
+            android:layout_marginTop="10"
+            android:layout_marginRight="40"
+            android:fontFamily="sans-serif-medium"
+            android:paddingLeft="50"
+            android:text="You have not yet account ?"
+            android:textColor="@color/material_on_surface_emphasis_medium"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login with admin"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
