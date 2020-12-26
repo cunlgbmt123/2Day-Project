@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="1.5dp"
-    android:background="@color/teal_200"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
     <ImageView
@@ -15,6 +15,7 @@
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:adjustViewBounds="false"
+        android:contentDescription="@string/todo"
         android:src="@drawable/logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,7 +29,7 @@
         android:layout_height="30dp"
         android:layout_marginBottom="168dp"
         android:fontFamily="cursive"
-        android:text="2D.Team"
+        android:text="@string/_2d_team"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#fdfdfd"

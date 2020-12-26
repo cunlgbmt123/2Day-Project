@@ -6,8 +6,11 @@
     <string name="mainmenu">MainMenu</string>
     <string name="eating_is_happiness">Eating is happiness</string>
     <string name="login_by_email">Login By Email</string>
-    <string name="todo">TODO</string>
     <string name="button">Button</string>
+    <string name="_2d_team">2D.Team</string>
+    <string name="todo">TODO</string>
+    <string name="or">OR</string>
+    <string name="login_by_phone">Login By phone</string>
 
 
     <string-array name="State">
